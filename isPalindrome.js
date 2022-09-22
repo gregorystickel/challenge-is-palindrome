@@ -11,4 +11,20 @@ function isPalindrom(word) {
     return true
   }
 
-  console.log(isPalindrom("noon"));
+  console.log(isPalindrom("greg"));
+
+
+  function newFunctiion (word) {
+    let j = word.length - 1;
+    for(let i = 0; i < word.length -1/ 2; i++) {
+        if (word[i] !== word[j]) {
+            return false; 
+        } else {
+            
+        }
+        j--
+    } 
+    return true;
+ }
+
+ console.log(newFunctiion("greg"));
